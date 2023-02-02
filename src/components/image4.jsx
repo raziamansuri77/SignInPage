@@ -2,8 +2,7 @@ import React from 'react';
 export function Image4() {
   return (
     <svg
-      width="80"
-   
+      width="200"
       viewBox="0 0 700 610"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

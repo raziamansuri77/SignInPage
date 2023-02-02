@@ -2,7 +2,7 @@ import React from 'react';
 export function Image3() {
   return (
     <svg
-      width="60"
+      width="120"
       viewBox="0 0 183 322"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

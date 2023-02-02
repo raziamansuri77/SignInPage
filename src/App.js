@@ -8,13 +8,13 @@ import { Form } from './components/form';
 export default function App() {
   return (
     <div
-      class=" w-[400px] h-[300px]   m-[10px] relative  flex justify-center items-center"
+      class=" w-full h-screen     relative  flex justify-center items-center"
       style={{
         background:
           'linear-gradient(112.74deg, rgba(253, 153, 3, 0.78) 10.08%, rgba(250, 102, 147, 0.65) 84.31%)',
       }}
     >
-      <div class="absolute left-0 top-0 ">
+      <div class="absolute left-0 top-[-5px] ">
         <Image2 />
       </div>
       <div class="absolute top-0 right-0">
@@ -26,7 +26,7 @@ export default function App() {
       <div class="absolute right-0 bottom-0">
         <Image4 />
       </div>
-      <div  class="" >
+      <div class="">
         <Form />
       </div>
     </div>
